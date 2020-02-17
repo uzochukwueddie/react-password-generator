@@ -1,0 +1,83 @@
+.password-display-container {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    background-color: #cb473e;
+    display: flex;
+    position: relative;
+    max-width: 1100px;
+    height: 150px;
+    margin: 0 auto 10px;
+}
+
+.password-display {
+    width: 100%;
+    max-width: auto;
+    border: 0;
+    color: white;
+    font-size: 1.4rem;
+    text-align: left;
+    padding-left: 5px;
+    height: 100%;
+    line-height: 150px;
+}
+
+.password-display-input {
+    background-color: inherit;
+    border: none !important;
+    outline: none !important;
+    color: white;
+    height: 50%;
+    width: 100%;
+    font-weight: bold;
+}
+
+.password-display-input::selection {
+    background: none;
+}
+
+.password-description {
+    margin-top: -40px;
+    margin-left: 6px;
+    color: white;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.fas {
+    color: white;
+}
+
+.password-display-icons {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    width: auto;
+    height: auto;
+    line-height: 100px;
+    padding: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-right: -15px;
+}
+
+.password-type {
+    position: relative;
+    display: flex;
+}
+
+.copy-btn {
+    border: none;
+    background: none;
+    font-size: 25px;
+    color: white;
+    outline: none !important;
+}
+
+.generate-btn {
+    border: none;
+    background: none;
+    font-size: 25px;
+    color: white;
+    outline: none !important;
+}
+
